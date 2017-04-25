@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="backbtn" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rentalshop.AddTransactionController">
+   <children>
+      <Label id="trnasactionid" layoutX="255.0" layoutY="32.0" prefHeight="34.0" prefWidth="268.0" text="Transaction Details" />
+      <Label id="namelbl" fx:id="namelbl" layoutX="36.0" layoutY="92.0" text="Name" />
+      <Label id="phonelbl" fx:id="phonelbl" layoutX="38.0" layoutY="132.0" text="Telephone" />
+      <Label id="addresslbl" fx:id="addresslbl" layoutX="41.0" layoutY="168.0" text="Address" />
+      <Label id="canopylbl" fx:id="canopylbl" layoutX="32.0" layoutY="201.0" text="Number of canopies" />
+      <Label id="tentlbl" fx:id="tentlbl" layoutX="40.0" layoutY="229.0" text="Number of tents" />
+      <Label id="chairlbl" fx:id="chairlbl" layoutX="40.0" layoutY="268.0" text="Number of chairs" />
+      <TextField id="nametxt" fx:id="name" layoutX="217.0" layoutY="88.0" />
+      <TextField id="phonetxt" fx:id="phone" layoutX="217.0" layoutY="128.0" />
+      <TextField id="addresstxt" fx:id="address" layoutX="217.0" layoutY="164.0" />
+      <TextField id="canopytxt" fx:id="canopy" layoutX="217.0" layoutY="197.0" />
+      <TextField id="tenttxt" fx:id="tent" layoutX="217.0" layoutY="234.0" />
+      <TextField id="chairtxt" fx:id="chair" layoutX="217.0" layoutY="264.0" />
+      <Label id="titleid" layoutX="26.0" layoutY="14.0" text="TAAS RENTALS" />
+      <Button id="addbtn" fx:id="addBtn" layoutX="346.0" layoutY="326.0" mnemonicParsing="false" onAction="#addTransaction" text="Add Transaction" textFill="#1cd767" />
+      <Button layoutX="84.0" layoutY="326.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="64.0" text="Back" textFill="#22e861" />
+      <Button fx:id="logoutbtn" layoutX="529.0" layoutY="10.0" mnemonicParsing="false" onAction="#logout" prefHeight="25.0" prefWidth="64.0" text="Log Out" textFill="#16d763" />
+   </children>
+</AnchorPane>
